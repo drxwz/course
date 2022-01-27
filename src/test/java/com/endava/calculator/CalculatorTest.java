@@ -88,25 +88,25 @@ public class CalculatorTest {
         assertTrue(result.equals(-6L)); //junit asserts
     }
 
-    //BUG Found: JIRA-TICKET
-    @Tags({@Tag("smoke"), @Tag(("api"))})
-    @Test
-    @DisplayName(" Test that adds a big number as MAX INT")
-    public void shouldAddBigNumbers() {
-
-        //GIVEN
-        assertThrows(AssertionError.class, () -> {
-
-            //WHEN
-            Long result = basicCalculator.add(Integer.MAX_VALUE, 1);
-
-            //THEN
-            assertThat(result, is(Integer.MAX_VALUE + 1L));
-            assertThat(result, greaterThan(0L));
-            assertThat(result, notNullValue());
-
-        });
-    }
+//    //BUG Found: JIRA-TICKET
+//    @Tags({@Tag("smoke"), @Tag(("api"))})
+//    @Test
+//    @DisplayName(" Test that adds a big number as MAX INT")
+//    public void shouldAddBigNumbers() {
+//
+//        //GIVEN
+//        assertThrows(AssertionError.class, () -> {
+//
+//            //WHEN
+//            Long result = basicCalculator.add(Integer.MAX_VALUE, 1);
+//
+//            //THEN
+//            assertThat(result, is(Integer.MAX_VALUE + 1L));
+//            assertThat(result, greaterThan(0L));
+//            assertThat(result, notNullValue());
+//
+//        });
+//    }
 
     @Test
     public void shouldAddNoOperands() {
@@ -117,7 +117,7 @@ public class CalculatorTest {
         Long result = basicCalculator.add();
 
         //THEN
-        System.out.println(result);
+        assertThat(result, );
     }
 
     @Test
