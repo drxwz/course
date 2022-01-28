@@ -11,6 +11,7 @@ import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.MethodSource;
+import org.assertj.core.api.Assertions;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,6 +64,7 @@ public class CalculatorTest {
 
         //THEN
         assertThat(result, is(expected));
+        Assertions.assertThat(result).isEqualTo(expected);
     }
 
     public static List<Arguments> numberProvider() {
@@ -119,6 +121,7 @@ public class CalculatorTest {
 
         //THEN
         assertThat(result, is(0L));
+        Assertions.assertThat(result).isEqualTo(0L);
     }
 
     @Test
@@ -131,6 +134,7 @@ public class CalculatorTest {
 
         //THEN
         assertEquals(167, result);
+        Assertions.assertThat(result).isEqualTo(167);
     }
 
     @ParameterizedTest
@@ -145,6 +149,7 @@ public class CalculatorTest {
 
         //THEN
         assertThat(result, is(expected));
+        Assertions.assertThat(result).isEqualTo(expected);
     }
 
 
@@ -158,6 +163,7 @@ public class CalculatorTest {
 
         //THEN
         assertEquals(6, result);
+        Assertions.assertThat(result).isEqualTo(6);
     }
 
     @Test
@@ -170,6 +176,7 @@ public class CalculatorTest {
 
         //THEN
         assertEquals(0, result);
+        Assertions.assertThat(result).isEqualTo(0);
     }
 
     @Test
@@ -182,6 +189,7 @@ public class CalculatorTest {
 
         //THEN
         assertEquals(24, result);
+        Assertions.assertThat(result).isEqualTo(24);
     }
 
     @Test
@@ -194,6 +202,7 @@ public class CalculatorTest {
 
         //THEN
         assertEquals(-6, result);
+        Assertions.assertThat(result).isEqualTo(-6);
     }
 
     @Test
@@ -206,6 +215,7 @@ public class CalculatorTest {
 
         //THEN
         assertEquals(2, result);
+        Assertions.assertThat(result).isEqualTo(2);
     }
 
 
@@ -219,7 +229,7 @@ public class CalculatorTest {
 
         //THEN
         assertEquals(8, result);
-        ;
+        Assertions.assertThat(result).isEqualTo(8);
     }
 
     @Test
@@ -232,6 +242,7 @@ public class CalculatorTest {
 
         //THEN
         assertEquals(0.125, result);
+        Assertions.assertThat(result).isEqualTo(0.125);
     }
 
     @Test
@@ -244,6 +255,7 @@ public class CalculatorTest {
 
         //THEN
         assertEquals(1, result);
+        Assertions.assertThat(result).isEqualTo(1);
     }
 
 
@@ -257,6 +269,7 @@ public class CalculatorTest {
 
         //THEN
         assertEquals(1, result);
+        Assertions.assertThat(result).isEqualTo(1);
     }
 
     @Test
@@ -269,6 +282,7 @@ public class CalculatorTest {
 
         //THEN
         assertEquals(120, result);
+        Assertions.assertThat(result).isEqualTo(120);
     }
 
 
