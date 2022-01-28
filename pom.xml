@@ -68,21 +68,23 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-params</artifactId>
             <version>5.8.2</version>
-            <scope>test</scope>
+<!--            <scope>test</scope>-->
         </dependency>
         <dependency>
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-launcher</artifactId>
             <version>1.8.2</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.hamcrest</groupId>
-            <artifactId>hamcrest</artifactId>
-            <version>2.2</version>
 <!--            <scope>test</scope>-->
         </dependency>
         <dependency>
+
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest</artifactId>
+            <version>2.2</version>
+            <!--            <scope>test</scope>-->
+        </dependency>
+        <dependency>
+
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
             <version>3.22.0</version>
@@ -127,8 +129,8 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
-<!--                    <groups>smoke | api</groups>-->
-<!--                    &lt;!&ndash;                    <excludedGroups>api</excludedGroups>&ndash;&gt;-->
+                    <!--                    <groups>smoke | api</groups>-->
+                    <!--                    &lt;!&ndash;                    <excludedGroups>api</excludedGroups>&ndash;&gt;-->
                     <skipTests>${skipTests}</skipTests>
                 </configuration>
             </plugin>
