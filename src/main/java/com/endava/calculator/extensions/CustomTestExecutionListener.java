@@ -7,7 +7,7 @@ import org.junit.platform.launcher.TestExecutionListener;
 import org.junit.platform.launcher.TestIdentifier;
 import org.junit.jupiter.api.extension.Extension;
 
-public class CustomTestExecutionListener implements TestExecutionListener, Extension {
+public class CustomTestExecutionListener implements TestExecutionListener {
 
     private static final Logger LOGGER = LogManager.getLogger(CustomTestExecutionListener.class);
 

@@ -4,8 +4,6 @@ import com.endava.calculator.basic.Basic;
 import com.endava.calculator.basic.BasicOperations;
 import com.endava.calculator.expert.Expert;
 import com.endava.calculator.expert.ExpertOperations;
-import com.endava.calculator.extensions.CustomTestExecutionListener;
-import com.endava.calculator.extensions.TestReporterExtension;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -22,7 +20,6 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 //@ExtendWith(TestReporterExtension.class)
-@ExtendWith(CustomTestExecutionListener.class)
 public class CalculatorTest {
 
     private BasicOperations basicCalculator;
@@ -121,7 +118,7 @@ public class CalculatorTest {
         Long result = basicCalculator.add();
 
         //THEN
-        assertThat(result, );
+        assertThat(result, is(0L) );
     }
 
     @Test
