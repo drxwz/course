@@ -1,0 +1,312 @@
+# Created at 2022-01-27T22:25:21.112
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.113
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.108 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started JUnit Jupiter'.
+
+# Created at 2022-01-27T22:25:21.128
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.129
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.128 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started CalculatorTest'.
+
+# Created at 2022-01-27T22:25:21.158
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.159
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.158 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started shouldMultiply1Number()'.
+
+# Created at 2022-01-27T22:25:21.176
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.177
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.176 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished shouldMultiply1Number()/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.178
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.179
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.178 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started shouldMultiplyWith0()'.
+
+# Created at 2022-01-27T22:25:21.179
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.180
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.179 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished shouldMultiplyWith0()/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.180
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.181
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.180 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started shouldRaiseExponent()'.
+
+# Created at 2022-01-27T22:25:21.181
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.182
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.181 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished shouldRaiseExponent()/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.183
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.183
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.182 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started shouldMultiplyNegativeNumbers()'.
+
+# Created at 2022-01-27T22:25:21.184
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.184
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.183 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished shouldMultiplyNegativeNumbers()/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.185
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.185
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.184 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started shouldMultiplyMoreNumbers()'.
+
+# Created at 2022-01-27T22:25:21.185
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.186
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.185 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished shouldMultiplyMoreNumbers()/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.186
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.187
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.186 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started shouldRaiseNegativeExponent()'.
+
+# Created at 2022-01-27T22:25:21.188
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.188
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.188 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished shouldRaiseNegativeExponent()/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.189
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.189
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.188 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started shouldAddNoOperands()'.
+
+# Created at 2022-01-27T22:25:21.190
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.190
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.189 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished shouldAddNoOperands()/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.190
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.191
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.190 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started shouldGiveFactorial()'.
+
+# Created at 2022-01-27T22:25:21.191
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.191
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.191 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished shouldGiveFactorial()/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.193
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.193
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.192 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started shouldAddMoreThan2Operands(int, int, int, Long)'.
+
+# Created at 2022-01-27T22:25:21.222
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.222
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.221 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started [1] 1, 2, 3, 6'.
+
+# Created at 2022-01-27T22:25:21.241
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.241
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.240 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished [1] 1, 2, 3, 6/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.244
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.244
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.243 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started [2] 2, 4, 5, 11'.
+
+# Created at 2022-01-27T22:25:21.245
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.245
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.245 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished [2] 2, 4, 5, 11/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.255
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.255
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.254 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started [3] 1, 2, 3, 6'.
+
+# Created at 2022-01-27T22:25:21.256
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.257
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.256 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished [3] 1, 2, 3, 6/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.257
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.258
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.257 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started [4] 2, 4, 5, 11'.
+
+# Created at 2022-01-27T22:25:21.258
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.259
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.258 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished [4] 2, 4, 5, 11/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.259
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.260
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.259 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started [5] 6, 7, 8, 21'.
+
+# Created at 2022-01-27T22:25:21.261
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.261
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.260 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished [5] 6, 7, 8, 21/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.262
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.262
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.261 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished shouldAddMoreThan2Operands(int, int, int, Long)/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.262
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.263
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.262 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started shouldAddNumbersGivenOperand0(int, int, long)'.
+
+# Created at 2022-01-27T22:25:21.266
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.266
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.266 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started [1] 0, 2, 2'.
+
+# Created at 2022-01-27T22:25:21.267
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.267
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.267 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished [1] 0, 2, 2/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.268
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.268
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.268 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started [2] 2, 0, 2'.
+
+# Created at 2022-01-27T22:25:21.269
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.269
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.268 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished [2] 2, 0, 2/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.269
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.270
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.269 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished shouldAddNumbersGivenOperand0(int, int, long)/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.270
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.271
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.270 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started shouldRaiseBaseWith0()'.
+
+# Created at 2022-01-27T22:25:21.272
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.272
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.271 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished shouldRaiseBaseWith0()/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.273
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.273
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.272 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started shouldRaise0WithNegativeExponent()'.
+
+# Created at 2022-01-27T22:25:21.274
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.274
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.273 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished shouldRaise0WithNegativeExponent()/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.274
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.275
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.274 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started shouldRaise0BaseWith0Exponent()'.
+
+# Created at 2022-01-27T22:25:21.275
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.275
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.275 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished shouldRaise0BaseWith0Exponent()/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.276
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.276
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.275 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started shouldAddNegativeNumbers()'.
+
+# Created at 2022-01-27T22:25:21.280
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.280
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.280 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished shouldAddNegativeNumbers()/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.281
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.281
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.280 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started shouldMultiply2Numbers()'.
+
+# Created at 2022-01-27T22:25:21.282
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.282
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.282 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished shouldMultiply2Numbers()/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.283
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.283
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.282 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started shouldAddOneOperand()'.
+
+# Created at 2022-01-27T22:25:21.283
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.284
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.283 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished shouldAddOneOperand()/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.284
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.284
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.283 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test started shouldGiveNegativeFactorial()'.
+
+# Created at 2022-01-27T22:25:21.285
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.285
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.284 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished shouldGiveNegativeFactorial()/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.287
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.287
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.286 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished CalculatorTest/SUCCESSFUL'.
+
+# Created at 2022-01-27T22:25:21.290
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '22:25:'.
+
+# Created at 2022-01-27T22:25:21.290
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '21.288 [main] INFO  com.endava.calculator.extensions.CustomTestExecutionListener - test finished JUnit Jupiter/SUCCESSFUL'.
+

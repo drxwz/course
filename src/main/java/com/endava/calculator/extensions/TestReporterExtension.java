@@ -6,7 +6,7 @@ import org.junit.jupiter.api.extension.AfterTestExecutionCallback;
 import org.junit.jupiter.api.extension.BeforeTestExecutionCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;
 
-public class TestReporterExtension  implements BeforeTestExecutionCallback, AfterTestExecutionCallback {
+public class TestReporterExtension implements BeforeTestExecutionCallback, AfterTestExecutionCallback {
 
     private static final Logger LOGGER = LogManager.getLogger(TestReporterExtension.class);
 

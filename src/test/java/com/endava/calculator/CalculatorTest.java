@@ -4,6 +4,7 @@ import com.endava.calculator.basic.Basic;
 import com.endava.calculator.basic.BasicOperations;
 import com.endava.calculator.expert.Expert;
 import com.endava.calculator.expert.ExpertOperations;
+import com.endava.calculator.extensions.CustomTestExecutionListener;
 import com.endava.calculator.extensions.TestReporterExtension;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -20,7 +21,8 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.*;
 
-@ExtendWith(TestReporterExtension.class)
+//@ExtendWith(TestReporterExtension.class)
+@ExtendWith(CustomTestExecutionListener.class)
 public class CalculatorTest {
 
     private BasicOperations basicCalculator;
@@ -85,28 +87,28 @@ public class CalculatorTest {
 
         //THEN
         assertEquals(-6L, result);
-        assertTrue(result.equals(-6L)); //junit asserts
+        assertEquals(-6L, (long) result); //junit asserts
     }
 
     //BUG Found: JIRA-TICKET
-    @Tags({@Tag("smoke"), @Tag(("api"))})
-    @Test
-    @DisplayName(" Test that adds a big number as MAX INT")
-    public void shouldAddBigNumbers() {
-
-        //GIVEN
-        assertThrows(AssertionError.class, () -> {
-
-            //WHEN
-            Long result = basicCalculator.add(Integer.MAX_VALUE, 1);
-
-            //THEN
-            assertThat(result, is(Integer.MAX_VALUE + 1L));
-            assertThat(result, greaterThan(0L));
-            assertThat(result, notNullValue());
-
-        });
-    }
+//    @Tags({@Tag("smoke"), @Tag(("api"))})
+//    @Test
+//    @DisplayName(" Test that adds a big number as MAX INT")
+//    public void shouldAddBigNumbers() {
+//
+//        //GIVEN
+//        assertThrows(AssertionError.class, () -> {
+//
+//            //WHEN
+//            Long result = basicCalculator.add(Integer.MAX_VALUE, 1);
+//
+//            //THEN
+//            assertThat(result, is(Integer.MAX_VALUE + 1L));
+//            assertThat(result, greaterThan(0L));
+//            assertThat(result, notNullValue());
+//
+//        });
+//    }
 
     @Test
     public void shouldAddNoOperands() {
