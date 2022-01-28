@@ -90,7 +90,9 @@ public class CalculatorTest {
         assertEquals(-6L, (long) result); //junit asserts
     }
 
+
     //BUG Found: JIRA-TICKET
+
 //    @Tags({@Tag("smoke"), @Tag(("api"))})
 //    @Test
 //    @DisplayName(" Test that adds a big number as MAX INT")
@@ -119,7 +121,7 @@ public class CalculatorTest {
         Long result = basicCalculator.add();
 
         //THEN
-        System.out.println(result);
+        assertThat(result, );
     }
 
     @Test
