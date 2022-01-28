@@ -13,12 +13,12 @@ public class CustomTestExecutionListener implements TestExecutionListener {
 
     @Override
     public void executionStarted(TestIdentifier testIdentifier) {
-        LOGGER.info("test started {}", testIdentifier.getDisplayName());
+        LOGGER.info("Test started: {}", testIdentifier.getDisplayName());
     }
 
     @Override
     public void executionFinished(TestIdentifier testIdentifier, TestExecutionResult testExecutionResult) {
-        LOGGER.info("test finished {}/{}", testIdentifier.getDisplayName(),testExecutionResult.getStatus());
+        LOGGER.info("Test finished: {}/{}", testIdentifier.getDisplayName(),testExecutionResult.getStatus());
 
     }
 }

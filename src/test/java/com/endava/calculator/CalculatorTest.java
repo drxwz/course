@@ -43,12 +43,12 @@ public class CalculatorTest {
 
         basicCalculator = new Basic();
         expertCalculator = new Expert();
-        System.out.println("\nBefore Each");
+//        System.out.println("\nBefore Each");
     }
 
     @AfterEach
     public void tearDownEachTest() {
-        System.out.println("After Each");
+//        System.out.println("After Each");
     }
 
     @Tags({@Tag("smoke"), @Tag(("ui"))})
@@ -118,7 +118,7 @@ public class CalculatorTest {
         Long result = basicCalculator.add();
 
         //THEN
-        assertThat(result, is(0L) );
+        assertThat(result, is(0L));
     }
 
     @Test
@@ -130,7 +130,7 @@ public class CalculatorTest {
         Long result = basicCalculator.add(167);
 
         //THEN
-        System.out.println(result);
+        assertEquals(167, result);
     }
 
     @ParameterizedTest
@@ -157,7 +157,7 @@ public class CalculatorTest {
         Long result = basicCalculator.multiply(2, 3);
 
         //THEN
-        System.out.println(result);
+        assertEquals(6, result);
     }
 
     @Test
@@ -169,7 +169,7 @@ public class CalculatorTest {
         Long result = basicCalculator.multiply(2, 0);
 
         //THEN
-        System.out.println(result);
+        assertEquals(0, result);
     }
 
     @Test
@@ -181,7 +181,7 @@ public class CalculatorTest {
         Long result = basicCalculator.multiply(2, 3, 4);
 
         //THEN
-        System.out.println(result);
+        assertEquals(24, result);
     }
 
     @Test
@@ -193,7 +193,7 @@ public class CalculatorTest {
         Long result = basicCalculator.multiply(-2, 3);
 
         //THEN
-        System.out.println(result);
+        assertEquals(-6, result);
     }
 
     @Test
@@ -205,7 +205,7 @@ public class CalculatorTest {
         Long result = basicCalculator.multiply(2);
 
         //THEN
-        System.out.println(result);
+        assertEquals(2, result);
     }
 
 
@@ -218,7 +218,8 @@ public class CalculatorTest {
         Double result = expertCalculator.pow(2, 3);
 
         //THEN
-        System.out.println(result);
+        assertEquals(8, result);
+        ;
     }
 
     @Test
@@ -230,7 +231,7 @@ public class CalculatorTest {
         Double result = expertCalculator.pow(2, -3);
 
         //THEN
-        System.out.println(result);
+        assertEquals(0.125, result);
     }
 
     @Test
@@ -242,20 +243,9 @@ public class CalculatorTest {
         Double result = expertCalculator.pow(2, 0);
 
         //THEN
-        System.out.println(result);
+        assertEquals(1, result);
     }
 
-    @Test
-    public void shouldRaise0WithNegativeExponent() {
-
-        //GIVEN
-
-        //WHEN
-        Double result = expertCalculator.pow(0, -1);
-
-        //THEN
-        System.out.println(result);
-    }
 
     @Test
     public void shouldRaise0BaseWith0Exponent() {
@@ -266,7 +256,7 @@ public class CalculatorTest {
         Double result = expertCalculator.pow(0, 0);
 
         //THEN
-        System.out.println(result);
+        assertEquals(1, result);
     }
 
     @Test
@@ -278,20 +268,9 @@ public class CalculatorTest {
         Long result = expertCalculator.fact(5);
 
         //THEN
-        System.out.println(result);
+        assertEquals(120, result);
     }
 
-    @Test
-    public void shouldGiveNegativeFactorial() {
-
-        //GIVEN
-
-        //WHEN
-        Long result = expertCalculator.fact(0);
-
-        //THEN
-        System.out.println(result);
-    }
 
 }
 
